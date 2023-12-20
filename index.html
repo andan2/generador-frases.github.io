@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>¿Que día te espera?</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="icon" type="image/png" sizes="32x32" href="./Imagenes/favicon-harry-potter.png">
+<!-- Favicon para IE 10 y versiones anteriores -->
+<!-- NOTA: Ya no es necesario para la mayoría de los casos, ya que IE tiene un soporte muy limitado -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+		<header class="text-center">
+			<div class="title-box">
+				<h1>
+					<small>Made by </small>Andrei
+					<img src="./Imagenes/hogwarts.png" class="img-responsive logo" alt="hogwarts">
+				</h1>
+			</div>
+		</header>
+	</div>
+
+	<div class="container">
+		<div>
+			<div class="corkboard">
+				<div class="music-player">
+					<!-- Botón de play con icono -->
+					<button id="play-button"><i class="fas fa-play"></i></button>
+					
+					<!-- El elemento de audio -->
+					<audio id="song" src="./Audios/harry potter musica.mp3"></audio>
+				</div>
+				<div class="home-button-container">
+					<!-- El ícono de la casa ahora funciona como un botón de enlace -->
+					<a href="https://andreioctaviandanciulescu.com/" id="home-button">
+					  <i class="fas fa-home"></i>
+					</a>
+				  </div>												
+				<h2 class="text-center"><small class="lead">Generador para un día positivo</small></h2>
+
+				<div class="row">
+					<div class="col-sm-3 col-sm-push-1">
+						<a href="javascript:void(0);" role="button" id="button">
+							<div class="post-it">
+								¿Qué día te espera hoy? Haz clic
+							</div>
+						</a>
+					</div>
+
+					<div class="col-sm-8 col-sm-push-1">
+						<div class="scrap">
+							<div class="wrapper" id="paper">
+								<img class="img-responsive" src="./Imagenes/maria-frase.png" alt="Frase"> <!-- letra cogida de: https://fontmeme.com/es/fuente-de-harry-potter/ -->
+								<p id="quote"></p>
+								<p id="character" class="text-right"></p>
+								<div id="twtbox"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- /.corkboard -->
+		</div> <!-- /.corkboard-border -->
+	</div> <!-- /.container -->
+
+<!-- jQuery & JS -->
+<script>
+</script>
+<!-- partial -->
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="./script.js"></script>
+
+
+</body>
+</html>
